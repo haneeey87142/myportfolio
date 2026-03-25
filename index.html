@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">Your Name</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#feedback">Feedback</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <img class="avatar" src="image.jpg" alt="profile" />
+      <h1>Hi, I’m Abdulla Hani</h1>
+      <p>I craft clean and modern web experiences with HTML, CSS, and JavaScript. This portfolio is designed to feel minimalist, professional, and approachable.</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </section>
+
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>Creating website in my own ways and finding new ideas.</p>
+      <div class="grid">
+        <div>
+          <h3>Experience</h3>
+          <p>fresher.</p>
+        </div>
+        <div>
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <article class="project">
+          <h3>Portfolio Landing Page</h3>
+          
+        </article>
+        <article class="project">
+          <h3>Coming soon....</h3>
+      </div>
+    </section>
+
+    <section class="card" id="feedback">
+      <h2>Feedback</h2>
+      <p>Share your thoughts about this site or request a feature. I read every message.</p>
+      <form id="feedbackForm" class="feedback-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="message">Feedback</label>
+          <textarea id="message" name="message" rows="4" placeholder="What would you like to say?" required></textarea>
+        </div>
+        <button type="submit">Send Feedback</button>
+      </form>
+      <div id="feedbackResponse" class="form-response" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to connect:</p>
+      <ul>
+        <li>Email: <a href="mailto:haneeey87142@gmail.com"></a></li>
+        <li>Phone:8714239850</li>
+        
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Your Name — Built with HTML, CSS, and JS</footer>
+  <script src="mark.js"></script>
+</body>
+</html>
